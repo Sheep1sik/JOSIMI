@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E805F1672CEA1996005C4E65 /* JOSIMIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F1662CEA1996005C4E65 /* JOSIMIApp.swift */; };
+		E805F16B2CEA1998005C4E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E805F16A2CEA1998005C4E65 /* Assets.xcassets */; };
+		E805F16E2CEA1998005C4E65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E805F16D2CEA1998005C4E65 /* Preview Assets.xcassets */; };
+		E805F17F2CEA285A005C4E65 /* UserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F17E2CEA285A005C4E65 /* UserNameView.swift */; };
+		E805F1832CEA28AB005C4E65 /* UserNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F1822CEA28AB005C4E65 /* UserNameViewModel.swift */; };
+		E805F1852CEA291D005C4E65 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F1842CEA291D005C4E65 /* LogInView.swift */; };
+		E805F1872CEA2A26005C4E65 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F1862CEA2A26005C4E65 /* LogoView.swift */; };
+		E805F1892CEA2A8E005C4E65 /* GreetingSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F1882CEA2A8E005C4E65 /* GreetingSectionView.swift */; };
+		E805F18B2CEA2BDD005C4E65 /* SocialLoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F18A2CEA2BDD005C4E65 /* SocialLoginButtonView.swift */; };
+		E805F18D2CEA2D4E005C4E65 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F18C2CEA2D4E005C4E65 /* CreateAccountView.swift */; };
+		E805F18F2CEA2D97005C4E65 /* UsernameInputSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F18E2CEA2D97005C4E65 /* UsernameInputSectionView.swift */; };
+		E805F1912CEA2DCA005C4E65 /* ErrorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F1902CEA2DCA005C4E65 /* ErrorMessageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E805F1632CEA1995005C4E65 /* JOSIMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JOSIMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E805F1662CEA1996005C4E65 /* JOSIMIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JOSIMIApp.swift; sourceTree = "<group>"; };
+		E805F16A2CEA1998005C4E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E805F16D2CEA1998005C4E65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E805F17E2CEA285A005C4E65 /* UserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameView.swift; sourceTree = "<group>"; };
+		E805F1822CEA28AB005C4E65 /* UserNameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameViewModel.swift; sourceTree = "<group>"; };
+		E805F1842CEA291D005C4E65 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		E805F1862CEA2A26005C4E65 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		E805F1882CEA2A8E005C4E65 /* GreetingSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingSectionView.swift; sourceTree = "<group>"; };
+		E805F18A2CEA2BDD005C4E65 /* SocialLoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginButtonView.swift; sourceTree = "<group>"; };
+		E805F18C2CEA2D4E005C4E65 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		E805F18E2CEA2D97005C4E65 /* UsernameInputSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameInputSectionView.swift; sourceTree = "<group>"; };
+		E805F1902CEA2DCA005C4E65 /* ErrorMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E805F1602CEA1995005C4E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E805F15A2CEA1995005C4E65 = {
+			isa = PBXGroup;
+			children = (
+				E805F1652CEA1996005C4E65 /* JOSIMI */,
+				E805F1642CEA1995005C4E65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E805F1642CEA1995005C4E65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E805F1632CEA1995005C4E65 /* JOSIMI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E805F1652CEA1996005C4E65 /* JOSIMI */ = {
+			isa = PBXGroup;
+			children = (
+				E805F1662CEA1996005C4E65 /* JOSIMIApp.swift */,
+				E805F1742CEA26D9005C4E65 /* Models */,
+				E805F17A2CEA2713005C4E65 /* Views */,
+				E805F1792CEA270C005C4E65 /* ViewModels */,
+				E805F1782CEA2704005C4E65 /* Services */,
+				E805F1772CEA26F1005C4E65 /* Utilities */,
+				E805F1762CEA26E7005C4E65 /* Resources */,
+				E805F1752CEA26DF005C4E65 /* Networking */,
+				E805F16A2CEA1998005C4E65 /* Assets.xcassets */,
+				E805F16C2CEA1998005C4E65 /* Preview Content */,
+			);
+			path = JOSIMI;
+			sourceTree = "<group>";
+		};
+		E805F16C2CEA1998005C4E65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E805F16D2CEA1998005C4E65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E805F1742CEA26D9005C4E65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E805F1752CEA26DF005C4E65 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E805F1762CEA26E7005C4E65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E805F1772CEA26F1005C4E65 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E805F1782CEA2704005C4E65 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E805F1792CEA270C005C4E65 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E805F1802CEA2890005C4E65 /* Auth */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E805F17A2CEA2713005C4E65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E805F17B2CEA27C8005C4E65 /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E805F17B2CEA27C8005C4E65 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E805F17D2CEA27D7005C4E65 /* CreateAccount */,
+				E805F17C2CEA27CD005C4E65 /* LogIn */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		E805F17C2CEA27CD005C4E65 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				E805F1842CEA291D005C4E65 /* LogInView.swift */,
+				E805F1862CEA2A26005C4E65 /* LogoView.swift */,
+				E805F18A2CEA2BDD005C4E65 /* SocialLoginButtonView.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		E805F17D2CEA27D7005C4E65 /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				E805F1922CEA2E2C005C4E65 /* UserName */,
+				E805F18C2CEA2D4E005C4E65 /* CreateAccountView.swift */,
+				E805F1882CEA2A8E005C4E65 /* GreetingSectionView.swift */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		E805F1802CEA2890005C4E65 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E805F1812CEA2896005C4E65 /* CreateAccount */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		E805F1812CEA2896005C4E65 /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				E805F1822CEA28AB005C4E65 /* UserNameViewModel.swift */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		E805F1922CEA2E2C005C4E65 /* UserName */ = {
+			isa = PBXGroup;
+			children = (
+				E805F17E2CEA285A005C4E65 /* UserNameView.swift */,
+				E805F18E2CEA2D97005C4E65 /* UsernameInputSectionView.swift */,
+				E805F1902CEA2DCA005C4E65 /* ErrorMessageView.swift */,
+			);
+			path = UserName;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E805F1622CEA1995005C4E65 /* JOSIMI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E805F1712CEA1998005C4E65 /* Build configuration list for PBXNativeTarget "JOSIMI" */;
+			buildPhases = (
+				E805F15F2CEA1995005C4E65 /* Sources */,
+				E805F1602CEA1995005C4E65 /* Frameworks */,
+				E805F1612CEA1995005C4E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JOSIMI;
+			productName = JOSIMI;
+			productReference = E805F1632CEA1995005C4E65 /* JOSIMI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E805F15B2CEA1995005C4E65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E805F1622CEA1995005C4E65 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = E805F15E2CEA1995005C4E65 /* Build configuration list for PBXProject "JOSIMI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E805F15A2CEA1995005C4E65;
+			productRefGroup = E805F1642CEA1995005C4E65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E805F1622CEA1995005C4E65 /* JOSIMI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E805F1612CEA1995005C4E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E805F16E2CEA1998005C4E65 /* Preview Assets.xcassets in Resources */,
+				E805F16B2CEA1998005C4E65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E805F15F2CEA1995005C4E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E805F17F2CEA285A005C4E65 /* UserNameView.swift in Sources */,
+				E805F18B2CEA2BDD005C4E65 /* SocialLoginButtonView.swift in Sources */,
+				E805F1912CEA2DCA005C4E65 /* ErrorMessageView.swift in Sources */,
+				E805F1872CEA2A26005C4E65 /* LogoView.swift in Sources */,
+				E805F18D2CEA2D4E005C4E65 /* CreateAccountView.swift in Sources */,
+				E805F18F2CEA2D97005C4E65 /* UsernameInputSectionView.swift in Sources */,
+				E805F1892CEA2A8E005C4E65 /* GreetingSectionView.swift in Sources */,
+				E805F1832CEA28AB005C4E65 /* UserNameViewModel.swift in Sources */,
+				E805F1852CEA291D005C4E65 /* LogInView.swift in Sources */,
+				E805F1672CEA1996005C4E65 /* JOSIMIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E805F16F2CEA1998005C4E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E805F1702CEA1998005C4E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E805F1722CEA1998005C4E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JOSIMI/Preview Content\"";
+				DEVELOPMENT_TEAM = 52YSN62MCL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GGDol.JOSIMI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E805F1732CEA1998005C4E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JOSIMI/Preview Content\"";
+				DEVELOPMENT_TEAM = 52YSN62MCL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GGDol.JOSIMI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E805F15E2CEA1995005C4E65 /* Build configuration list for PBXProject "JOSIMI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E805F16F2CEA1998005C4E65 /* Debug */,
+				E805F1702CEA1998005C4E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E805F1712CEA1998005C4E65 /* Build configuration list for PBXNativeTarget "JOSIMI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E805F1722CEA1998005C4E65 /* Debug */,
+				E805F1732CEA1998005C4E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E805F15B2CEA1995005C4E65 /* Project object */;
+}
