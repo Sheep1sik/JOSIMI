@@ -1,28 +1,34 @@
 //
-//  JosimiApp.swift
+//  LoginView.swift
 //  Josimi
 //
-//  Created by 양원식 on 8/10/24.
+//  Created by 양원식 on 11/9/24.
 //
 
 import SwiftUI
 
-@main
-struct JosimiApp: App {
-    @AppStorage("isLoggedIn") private var isLoggedIn: Bool = false
+struct LoginView: View {
+    @Binding var progress: Double
     @StateObject private var viewModel = RegistrationViewModel()
-    @State private var path = NavigationPath()
-    @State var progress: Double = 0.25
-    var body: some Scene {
-        WindowGroup {
-            NavigationStack(path: $path){
-                if isLoggedIn {
-                    // 로그인 후 TabbarView로 이동
-                    TabbarView()
-                } else {
-                    // 로그인 화면으로 이동
-                    LoginView(progress: $progress, path: $path)
+    @Binding var path: NavigationPath
+    
+    var body: some View {
+        NavigationStack(path: $path) {
+            VStack {
+                Spacer()
+                
+                Image("logo")
+                
+                Spacer()
+                
+                NavigationLink(value: "AddNameView") {
+                    Image("btn_cta_ios")
                 }
+                
+                NavigationLink(value: "AddNameView") {
+                    Image("btn_cta_ios2")
+                }
+                Spacer()
             }
             .navigationDestination(for: String.self) { value in
                 if value == "AddNameView" {
@@ -55,3 +61,9 @@ struct JosimiApp: App {
     }
 }
 
+
+
+
+#Preview {
+    LoginView(progress: .constant(0.25), path: .constant(NavigationPath()))
+}

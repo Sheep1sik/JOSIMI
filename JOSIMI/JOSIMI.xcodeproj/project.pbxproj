@@ -7,230 +7,491 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E805F1672CEA1996005C4E65 /* JOSIMIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F1662CEA1996005C4E65 /* JOSIMIApp.swift */; };
-		E805F16B2CEA1998005C4E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E805F16A2CEA1998005C4E65 /* Assets.xcassets */; };
-		E805F16E2CEA1998005C4E65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E805F16D2CEA1998005C4E65 /* Preview Assets.xcassets */; };
-		E805F17F2CEA285A005C4E65 /* UserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F17E2CEA285A005C4E65 /* UserNameView.swift */; };
-		E805F1832CEA28AB005C4E65 /* UserNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F1822CEA28AB005C4E65 /* UserNameViewModel.swift */; };
-		E805F1852CEA291D005C4E65 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F1842CEA291D005C4E65 /* LogInView.swift */; };
-		E805F1872CEA2A26005C4E65 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F1862CEA2A26005C4E65 /* LogoView.swift */; };
-		E805F1892CEA2A8E005C4E65 /* GreetingSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F1882CEA2A8E005C4E65 /* GreetingSectionView.swift */; };
-		E805F18B2CEA2BDD005C4E65 /* SocialLoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F18A2CEA2BDD005C4E65 /* SocialLoginButtonView.swift */; };
-		E805F18D2CEA2D4E005C4E65 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F18C2CEA2D4E005C4E65 /* CreateAccountView.swift */; };
-		E805F18F2CEA2D97005C4E65 /* UsernameInputSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F18E2CEA2D97005C4E65 /* UsernameInputSectionView.swift */; };
-		E805F1912CEA2DCA005C4E65 /* ErrorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805F1902CEA2DCA005C4E65 /* ErrorMessageView.swift */; };
+		BD7E5473F8613D5873782F46 /* Pods_Josimi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA580847157CF8E9C05ABA8 /* Pods_Josimi.framework */; };
+		E8221F622C9D73BC00115EE9 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8221F612C9D73BB00115EE9 /* BarcodeScannerView.swift */; };
+		E8221F672C9D747E00115EE9 /* BarcodeScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8221F662C9D747E00115EE9 /* BarcodeScannerViewModel.swift */; };
+		E8221F692C9D753A00115EE9 /* ProductScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8221F682C9D753A00115EE9 /* ProductScannerView.swift */; };
+		E8221F6E2C9EA81C00115EE9 /* RecommendedProductScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8221F6D2C9EA81C00115EE9 /* RecommendedProductScrollView.swift */; };
+		E8221F702C9EAB3400115EE9 /* RecommendedProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8221F6F2C9EAB3400115EE9 /* RecommendedProductItemView.swift */; };
+		E8221F722C9EAE1400115EE9 /* JosimiLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8221F712C9EAE1400115EE9 /* JosimiLaunchScreen.storyboard */; };
+		E82446562CDF5146002FF742 /* AddDiseaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82446552CDF5146002FF742 /* AddDiseaseView.swift */; };
+		E82446582CDF5AEB002FF742 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82446572CDF5AEB002FF742 /* LoginView.swift */; };
+		E83AE54A2C75ED9A0072CFCA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83AE5492C75ED9A0072CFCA /* HomeView.swift */; };
+		E83AE5582C92ECA90072CFCA /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83AE5572C92ECA90072CFCA /* SearchBarView.swift */; };
+		E83AE55B2C92EE770072CFCA /* ADBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83AE55A2C92EE770072CFCA /* ADBannerView.swift */; };
+		E83AE55E2C92EE9A0072CFCA /* InfinitePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83AE55D2C92EE9A0072CFCA /* InfinitePageView.swift */; };
+		E83AE5602C92EEC70072CFCA /* ADBannerItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83AE55F2C92EEC70072CFCA /* ADBannerItemView.swift */; };
+		E83AE5622C92EEF70072CFCA /* ADBannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83AE5612C92EEF70072CFCA /* ADBannerViewModel.swift */; };
+		E83AE5642C92EF250072CFCA /* ADBannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83AE5632C92EF250072CFCA /* ADBannerModel.swift */; };
+		E83AE56F2C92FBD80072CFCA /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83AE56E2C92FBD80072CFCA /* CustomTabView.swift */; };
+		E83AE5722C92FCC40072CFCA /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83AE5712C92FCC40072CFCA /* RoundedCorners.swift */; };
+		E83AE5742C92FED40072CFCA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83AE5732C92FED40072CFCA /* ButtonView.swift */; };
+		E83AE5762C92FF250072CFCA /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83AE5752C92FF250072CFCA /* TabbarView.swift */; };
+		E83AE5792C9308730072CFCA /* CameraButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83AE5782C9308730072CFCA /* CameraButtonView.swift */; };
+		E83AE57C2C930F720072CFCA /* DraggableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83AE57B2C930F720072CFCA /* DraggableButton.swift */; };
+		E853F0C02CA017D400AF0E06 /* RecommendedProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E853F0BF2CA017D400AF0E06 /* RecommendedProductListView.swift */; };
+		E853F0C22CA0218500AF0E06 /* ProductCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E853F0C12CA0218500AF0E06 /* ProductCategory.swift */; };
+		E853F0C42CA023D500AF0E06 /* RecommendedProductCategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E853F0C32CA023D500AF0E06 /* RecommendedProductCategoryListView.swift */; };
+		E853F0C62CA025BB00AF0E06 /* RecommendedProductCategoryNormalItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E853F0C52CA025BB00AF0E06 /* RecommendedProductCategoryNormalItemView.swift */; };
+		E85F2A582C9EFCAB0031A3F4 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85F2A572C9EFCAB0031A3F4 /* Ingredient.swift */; };
+		E85F2A5A2C9EFD290031A3F4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85F2A592C9EFD290031A3F4 /* Product.swift */; };
+		E85F2A5D2C9EFD650031A3F4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85F2A5C2C9EFD650031A3F4 /* NetworkManager.swift */; };
+		E85F2A5F2C9EFE470031A3F4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85F2A5E2C9EFE470031A3F4 /* NetworkService.swift */; };
+		E85F2A622C9F02250031A3F4 /* ProductDetailsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85F2A612C9F02250031A3F4 /* ProductDetailsPageView.swift */; };
+		E85F2A642C9F36C00031A3F4 /* RiskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85F2A632C9F36C00031A3F4 /* RiskView.swift */; };
+		E85F2A672C9FE88D0031A3F4 /* RecommendedProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85F2A662C9FE88C0031A3F4 /* RecommendedProductViewModel.swift */; };
+		E85F2A692C9FEA670031A3F4 /* ProductAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85F2A682C9FEA670031A3F4 /* ProductAfter.swift */; };
+		E85F2A6D2CA003A60031A3F4 /* RecommendedProductNormalItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85F2A6C2CA003A60031A3F4 /* RecommendedProductNormalItemView.swift */; };
+		E878FCC92C7077A8007E7523 /* AddAgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E878FCC82C7077A8007E7523 /* AddAgeView.swift */; };
+		E878FCCB2C707878007E7523 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E878FCCA2C707878007E7523 /* RegistrationViewModel.swift */; };
+		E878FCD02C7099BB007E7523 /* CompletsSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E878FCCF2C7099BB007E7523 /* CompletsSignUpView.swift */; };
+		E8C2600D2C675A5400C91130 /* JosimiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C2600C2C675A5400C91130 /* JosimiApp.swift */; };
+		E8C260112C675A5700C91130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C260102C675A5700C91130 /* Assets.xcassets */; };
+		E8C260142C675A5700C91130 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C260132C675A5700C91130 /* Preview Assets.xcassets */; };
+		E8C2601D2C675BB100C91130 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C2601C2C675BB100C91130 /* User.swift */; };
+		E8C2601F2C675CD800C91130 /* AddNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C2601E2C675CD800C91130 /* AddNameView.swift */; };
+		E8C260212C676BED00C91130 /* AddPhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C260202C676BED00C91130 /* AddPhoneNumberView.swift */; };
+		E8CC55B92C6A276000A2C46E /* SMSRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC55B82C6A276000A2C46E /* SMSRequest.swift */; };
+		E8CC55BB2C6A288900A2C46E /* SMSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC55BA2C6A288900A2C46E /* SMSService.swift */; };
+		E8CC55BD2C6A292F00A2C46E /* SMSResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC55BC2C6A292F00A2C46E /* SMSResponse.swift */; };
+		E8CC55BF2C6CAF2A00A2C46E /* AddGenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC55BE2C6CAF2A00A2C46E /* AddGenderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E805F1632CEA1995005C4E65 /* JOSIMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JOSIMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E805F1662CEA1996005C4E65 /* JOSIMIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JOSIMIApp.swift; sourceTree = "<group>"; };
-		E805F16A2CEA1998005C4E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E805F16D2CEA1998005C4E65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E805F17E2CEA285A005C4E65 /* UserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameView.swift; sourceTree = "<group>"; };
-		E805F1822CEA28AB005C4E65 /* UserNameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameViewModel.swift; sourceTree = "<group>"; };
-		E805F1842CEA291D005C4E65 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
-		E805F1862CEA2A26005C4E65 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
-		E805F1882CEA2A8E005C4E65 /* GreetingSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingSectionView.swift; sourceTree = "<group>"; };
-		E805F18A2CEA2BDD005C4E65 /* SocialLoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginButtonView.swift; sourceTree = "<group>"; };
-		E805F18C2CEA2D4E005C4E65 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
-		E805F18E2CEA2D97005C4E65 /* UsernameInputSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameInputSectionView.swift; sourceTree = "<group>"; };
-		E805F1902CEA2DCA005C4E65 /* ErrorMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessageView.swift; sourceTree = "<group>"; };
+		1FA580847157CF8E9C05ABA8 /* Pods_Josimi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Josimi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A488D167DE58C1C32FFE02 /* Pods-Josimi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Josimi.debug.xcconfig"; path = "Target Support Files/Pods-Josimi/Pods-Josimi.debug.xcconfig"; sourceTree = "<group>"; };
+		E8221F612C9D73BB00115EE9 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
+		E8221F662C9D747E00115EE9 /* BarcodeScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerViewModel.swift; sourceTree = "<group>"; };
+		E8221F682C9D753A00115EE9 /* ProductScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductScannerView.swift; sourceTree = "<group>"; };
+		E8221F6D2C9EA81C00115EE9 /* RecommendedProductScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductScrollView.swift; sourceTree = "<group>"; };
+		E8221F6F2C9EAB3400115EE9 /* RecommendedProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductItemView.swift; sourceTree = "<group>"; };
+		E8221F712C9EAE1400115EE9 /* JosimiLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JosimiLaunchScreen.storyboard; sourceTree = "<group>"; };
+		E82446552CDF5146002FF742 /* AddDiseaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDiseaseView.swift; sourceTree = "<group>"; };
+		E82446572CDF5AEB002FF742 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E83AE5492C75ED9A0072CFCA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E83AE5572C92ECA90072CFCA /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		E83AE55A2C92EE770072CFCA /* ADBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADBannerView.swift; sourceTree = "<group>"; };
+		E83AE55D2C92EE9A0072CFCA /* InfinitePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinitePageView.swift; sourceTree = "<group>"; };
+		E83AE55F2C92EEC70072CFCA /* ADBannerItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADBannerItemView.swift; sourceTree = "<group>"; };
+		E83AE5612C92EEF70072CFCA /* ADBannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADBannerViewModel.swift; sourceTree = "<group>"; };
+		E83AE5632C92EF250072CFCA /* ADBannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADBannerModel.swift; sourceTree = "<group>"; };
+		E83AE56E2C92FBD80072CFCA /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		E83AE5712C92FCC40072CFCA /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		E83AE5732C92FED40072CFCA /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		E83AE5752C92FF250072CFCA /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		E83AE5782C9308730072CFCA /* CameraButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraButtonView.swift; sourceTree = "<group>"; };
+		E83AE57B2C930F720072CFCA /* DraggableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableButton.swift; sourceTree = "<group>"; };
+		E853F0BF2CA017D400AF0E06 /* RecommendedProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductListView.swift; sourceTree = "<group>"; };
+		E853F0C12CA0218500AF0E06 /* ProductCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCategory.swift; sourceTree = "<group>"; };
+		E853F0C32CA023D500AF0E06 /* RecommendedProductCategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductCategoryListView.swift; sourceTree = "<group>"; };
+		E853F0C52CA025BB00AF0E06 /* RecommendedProductCategoryNormalItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductCategoryNormalItemView.swift; sourceTree = "<group>"; };
+		E85F2A572C9EFCAB0031A3F4 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		E85F2A592C9EFD290031A3F4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E85F2A5C2C9EFD650031A3F4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E85F2A5E2C9EFE470031A3F4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E85F2A612C9F02250031A3F4 /* ProductDetailsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsPageView.swift; sourceTree = "<group>"; };
+		E85F2A632C9F36C00031A3F4 /* RiskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskView.swift; sourceTree = "<group>"; };
+		E85F2A652C9FD5310031A3F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E85F2A662C9FE88C0031A3F4 /* RecommendedProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductViewModel.swift; sourceTree = "<group>"; };
+		E85F2A682C9FEA670031A3F4 /* ProductAfter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAfter.swift; sourceTree = "<group>"; };
+		E85F2A6C2CA003A60031A3F4 /* RecommendedProductNormalItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductNormalItemView.swift; sourceTree = "<group>"; };
+		E878FCC82C7077A8007E7523 /* AddAgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAgeView.swift; sourceTree = "<group>"; };
+		E878FCCA2C707878007E7523 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		E878FCCF2C7099BB007E7523 /* CompletsSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletsSignUpView.swift; sourceTree = "<group>"; };
+		E8C260092C675A5400C91130 /* Josimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Josimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8C2600C2C675A5400C91130 /* JosimiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JosimiApp.swift; sourceTree = "<group>"; };
+		E8C260102C675A5700C91130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8C260132C675A5700C91130 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8C2601C2C675BB100C91130 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E8C2601E2C675CD800C91130 /* AddNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNameView.swift; sourceTree = "<group>"; };
+		E8C260202C676BED00C91130 /* AddPhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhoneNumberView.swift; sourceTree = "<group>"; };
+		E8CC55B82C6A276000A2C46E /* SMSRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSRequest.swift; sourceTree = "<group>"; };
+		E8CC55BA2C6A288900A2C46E /* SMSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSService.swift; sourceTree = "<group>"; };
+		E8CC55BC2C6A292F00A2C46E /* SMSResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSResponse.swift; sourceTree = "<group>"; };
+		E8CC55BE2C6CAF2A00A2C46E /* AddGenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGenderView.swift; sourceTree = "<group>"; };
+		FD34C68919E63EAEAB035692 /* Pods-Josimi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Josimi.release.xcconfig"; path = "Target Support Files/Pods-Josimi/Pods-Josimi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E805F1602CEA1995005C4E65 /* Frameworks */ = {
+		E8C260062C675A5400C91130 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7E5473F8613D5873782F46 /* Pods_Josimi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E805F15A2CEA1995005C4E65 = {
+		41A3666825F3339B371CCDC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E805F1652CEA1996005C4E65 /* JOSIMI */,
-				E805F1642CEA1995005C4E65 /* Products */,
+				1FA580847157CF8E9C05ABA8 /* Pods_Josimi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5BF28C4CC543281F5FB454D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6A488D167DE58C1C32FFE02 /* Pods-Josimi.debug.xcconfig */,
+				FD34C68919E63EAEAB035692 /* Pods-Josimi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E8221F632C9D745700115EE9 /* BarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				E8221F652C9D746A00115EE9 /* ViewModel */,
+				E8221F642C9D746300115EE9 /* View */,
+			);
+			path = BarcodeScanner;
+			sourceTree = "<group>";
+		};
+		E8221F642C9D746300115EE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8221F612C9D73BB00115EE9 /* BarcodeScannerView.swift */,
+				E8221F682C9D753A00115EE9 /* ProductScannerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8221F652C9D746A00115EE9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E8221F662C9D747E00115EE9 /* BarcodeScannerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E8221F6A2C9EA75400115EE9 /* RecommendedProduct */ = {
+			isa = PBXGroup;
+			children = (
+				E8221F6C2C9EA76700115EE9 /* ViewModel */,
+				E8221F6B2C9EA76300115EE9 /* View */,
+			);
+			path = RecommendedProduct;
+			sourceTree = "<group>";
+		};
+		E8221F6B2C9EA76300115EE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E853F0C72CA025C500AF0E06 /* Category */,
+				E8221F6D2C9EA81C00115EE9 /* RecommendedProductScrollView.swift */,
+				E8221F6F2C9EAB3400115EE9 /* RecommendedProductItemView.swift */,
+				E85F2A6C2CA003A60031A3F4 /* RecommendedProductNormalItemView.swift */,
+				E853F0BF2CA017D400AF0E06 /* RecommendedProductListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8221F6C2C9EA76700115EE9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E85F2A662C9FE88C0031A3F4 /* RecommendedProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E83AE5472C75ED780072CFCA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E83AE5592C92EE560072CFCA /* ADBanner */,
+				E83AE5552C92EC630072CFCA /* Search */,
+				E83AE5482C75ED830072CFCA /* Main */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E83AE5482C75ED830072CFCA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E85F2A602C9F01FA0031A3F4 /* Product */,
+				E8221F6A2C9EA75400115EE9 /* RecommendedProduct */,
+				E8221F632C9D745700115EE9 /* BarcodeScanner */,
+				E83AE5772C9308560072CFCA /* Camera */,
+				E83AE56A2C92F9680072CFCA /* Tab */,
+				E83AE5692C92F95A0072CFCA /* Home */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E83AE5552C92EC630072CFCA /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E83AE5562C92EC930072CFCA /* Bar */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		E83AE5562C92EC930072CFCA /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				E83AE5662C92EF630072CFCA /* View */,
+			);
+			path = Bar;
+			sourceTree = "<group>";
+		};
+		E83AE5592C92EE560072CFCA /* ADBanner */ = {
+			isa = PBXGroup;
+			children = (
+				E83AE5652C92EF550072CFCA /* View */,
+				E83AE55C2C92EE900072CFCA /* ViewModel */,
+			);
+			path = ADBanner;
+			sourceTree = "<group>";
+		};
+		E83AE55C2C92EE900072CFCA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E83AE5612C92EEF70072CFCA /* ADBannerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E83AE5652C92EF550072CFCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E83AE55A2C92EE770072CFCA /* ADBannerView.swift */,
+				E83AE55D2C92EE9A0072CFCA /* InfinitePageView.swift */,
+				E83AE55F2C92EEC70072CFCA /* ADBannerItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E83AE5662C92EF630072CFCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E83AE5572C92ECA90072CFCA /* SearchBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E83AE5672C92EF6E0072CFCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E83AE5492C75ED9A0072CFCA /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E83AE5692C92F95A0072CFCA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E83AE5672C92EF6E0072CFCA /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E83AE56A2C92F9680072CFCA /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				E83AE5702C92FCA90072CFCA /* ViewModifier */,
+				E83AE56B2C92F96E0072CFCA /* View */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		E83AE56B2C92F96E0072CFCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E83AE56E2C92FBD80072CFCA /* CustomTabView.swift */,
+				E83AE5732C92FED40072CFCA /* ButtonView.swift */,
+				E83AE5752C92FF250072CFCA /* TabbarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E83AE5702C92FCA90072CFCA /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				E83AE5712C92FCC40072CFCA /* RoundedCorners.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		E83AE5772C9308560072CFCA /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				E83AE57A2C930F5A0072CFCA /* View */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		E83AE57A2C930F5A0072CFCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E83AE5782C9308730072CFCA /* CameraButtonView.swift */,
+				E83AE57B2C930F720072CFCA /* DraggableButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E853F0C72CA025C500AF0E06 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E853F0C32CA023D500AF0E06 /* RecommendedProductCategoryListView.swift */,
+				E853F0C52CA025BB00AF0E06 /* RecommendedProductCategoryNormalItemView.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E85F2A5B2C9EFD450031A3F4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E85F2A5C2C9EFD650031A3F4 /* NetworkManager.swift */,
+				E85F2A5E2C9EFE470031A3F4 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E85F2A602C9F01FA0031A3F4 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				E85F2A612C9F02250031A3F4 /* ProductDetailsPageView.swift */,
+				E85F2A632C9F36C00031A3F4 /* RiskView.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		E878FCCC2C708A0A007E7523 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E82446572CDF5AEB002FF742 /* LoginView.swift */,
+				E8C2601E2C675CD800C91130 /* AddNameView.swift */,
+				E8C260202C676BED00C91130 /* AddPhoneNumberView.swift */,
+				E8CC55BE2C6CAF2A00A2C46E /* AddGenderView.swift */,
+				E878FCC82C7077A8007E7523 /* AddAgeView.swift */,
+				E82446552CDF5146002FF742 /* AddDiseaseView.swift */,
+				E878FCCF2C7099BB007E7523 /* CompletsSignUpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E878FCCD2C708A15007E7523 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E878FCCA2C707878007E7523 /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E878FCCE2C708A1E007E7523 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E8CC55BA2C6A288900A2C46E /* SMSService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E8C260002C675A5400C91130 = {
+			isa = PBXGroup;
+			children = (
+				E8C2600B2C675A5400C91130 /* Josimi */,
+				E8C2600A2C675A5400C91130 /* Products */,
+				D5BF28C4CC543281F5FB454D /* Pods */,
+				41A3666825F3339B371CCDC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		E805F1642CEA1995005C4E65 /* Products */ = {
+		E8C2600A2C675A5400C91130 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E805F1632CEA1995005C4E65 /* JOSIMI.app */,
+				E8C260092C675A5400C91130 /* Josimi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E805F1652CEA1996005C4E65 /* JOSIMI */ = {
+		E8C2600B2C675A5400C91130 /* Josimi */ = {
 			isa = PBXGroup;
 			children = (
-				E805F1662CEA1996005C4E65 /* JOSIMIApp.swift */,
-				E805F1742CEA26D9005C4E65 /* Models */,
-				E805F17A2CEA2713005C4E65 /* Views */,
-				E805F1792CEA270C005C4E65 /* ViewModels */,
-				E805F1782CEA2704005C4E65 /* Services */,
-				E805F1772CEA26F1005C4E65 /* Utilities */,
-				E805F1762CEA26E7005C4E65 /* Resources */,
-				E805F1752CEA26DF005C4E65 /* Networking */,
-				E805F16A2CEA1998005C4E65 /* Assets.xcassets */,
-				E805F16C2CEA1998005C4E65 /* Preview Content */,
+				E85F2A652C9FD5310031A3F4 /* Info.plist */,
+				E85F2A5B2C9EFD450031A3F4 /* Network */,
+				E8C2600C2C675A5400C91130 /* JosimiApp.swift */,
+				E8C2601A2C675AC500C91130 /* Authentication */,
+				E83AE5472C75ED780072CFCA /* Home */,
+				E8C2601B2C675BA400C91130 /* Model */,
+				E8C260102C675A5700C91130 /* Assets.xcassets */,
+				E8C260122C675A5700C91130 /* Preview Content */,
+				E8221F712C9EAE1400115EE9 /* JosimiLaunchScreen.storyboard */,
 			);
-			path = JOSIMI;
+			path = Josimi;
 			sourceTree = "<group>";
 		};
-		E805F16C2CEA1998005C4E65 /* Preview Content */ = {
+		E8C260122C675A5700C91130 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				E805F16D2CEA1998005C4E65 /* Preview Assets.xcassets */,
+				E8C260132C675A5700C91130 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E805F1742CEA26D9005C4E65 /* Models */ = {
+		E8C2601A2C675AC500C91130 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				E878FCCE2C708A1E007E7523 /* Service */,
+				E878FCCD2C708A15007E7523 /* ViewModel */,
+				E878FCCC2C708A0A007E7523 /* View */,
 			);
-			path = Models;
+			path = Authentication;
 			sourceTree = "<group>";
 		};
-		E805F1752CEA26DF005C4E65 /* Networking */ = {
+		E8C2601B2C675BA400C91130 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E8C2601C2C675BB100C91130 /* User.swift */,
+				E8CC55B82C6A276000A2C46E /* SMSRequest.swift */,
+				E8CC55BC2C6A292F00A2C46E /* SMSResponse.swift */,
+				E83AE5632C92EF250072CFCA /* ADBannerModel.swift */,
+				E85F2A572C9EFCAB0031A3F4 /* Ingredient.swift */,
+				E85F2A592C9EFD290031A3F4 /* Product.swift */,
+				E85F2A682C9FEA670031A3F4 /* ProductAfter.swift */,
+				E853F0C12CA0218500AF0E06 /* ProductCategory.swift */,
 			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		E805F1762CEA26E7005C4E65 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		E805F1772CEA26F1005C4E65 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		E805F1782CEA2704005C4E65 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		E805F1792CEA270C005C4E65 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				E805F1802CEA2890005C4E65 /* Auth */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		E805F17A2CEA2713005C4E65 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				E805F17B2CEA27C8005C4E65 /* Auth */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		E805F17B2CEA27C8005C4E65 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				E805F17D2CEA27D7005C4E65 /* CreateAccount */,
-				E805F17C2CEA27CD005C4E65 /* LogIn */,
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
-		E805F17C2CEA27CD005C4E65 /* LogIn */ = {
-			isa = PBXGroup;
-			children = (
-				E805F1842CEA291D005C4E65 /* LogInView.swift */,
-				E805F1862CEA2A26005C4E65 /* LogoView.swift */,
-				E805F18A2CEA2BDD005C4E65 /* SocialLoginButtonView.swift */,
-			);
-			path = LogIn;
-			sourceTree = "<group>";
-		};
-		E805F17D2CEA27D7005C4E65 /* CreateAccount */ = {
-			isa = PBXGroup;
-			children = (
-				E805F1922CEA2E2C005C4E65 /* UserName */,
-				E805F18C2CEA2D4E005C4E65 /* CreateAccountView.swift */,
-				E805F1882CEA2A8E005C4E65 /* GreetingSectionView.swift */,
-			);
-			path = CreateAccount;
-			sourceTree = "<group>";
-		};
-		E805F1802CEA2890005C4E65 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				E805F1812CEA2896005C4E65 /* CreateAccount */,
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
-		E805F1812CEA2896005C4E65 /* CreateAccount */ = {
-			isa = PBXGroup;
-			children = (
-				E805F1822CEA28AB005C4E65 /* UserNameViewModel.swift */,
-			);
-			path = CreateAccount;
-			sourceTree = "<group>";
-		};
-		E805F1922CEA2E2C005C4E65 /* UserName */ = {
-			isa = PBXGroup;
-			children = (
-				E805F17E2CEA285A005C4E65 /* UserNameView.swift */,
-				E805F18E2CEA2D97005C4E65 /* UsernameInputSectionView.swift */,
-				E805F1902CEA2DCA005C4E65 /* ErrorMessageView.swift */,
-			);
-			path = UserName;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E805F1622CEA1995005C4E65 /* JOSIMI */ = {
+		E8C260082C675A5400C91130 /* Josimi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E805F1712CEA1998005C4E65 /* Build configuration list for PBXNativeTarget "JOSIMI" */;
+			buildConfigurationList = E8C260172C675A5700C91130 /* Build configuration list for PBXNativeTarget "Josimi" */;
 			buildPhases = (
-				E805F15F2CEA1995005C4E65 /* Sources */,
-				E805F1602CEA1995005C4E65 /* Frameworks */,
-				E805F1612CEA1995005C4E65 /* Resources */,
+				6E282026354580BB441969B3 /* [CP] Check Pods Manifest.lock */,
+				E8C260052C675A5400C91130 /* Sources */,
+				E8C260062C675A5400C91130 /* Frameworks */,
+				E8C260072C675A5400C91130 /* Resources */,
+				9CAC62467EB0944A67F9771B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = JOSIMI;
-			productName = JOSIMI;
-			productReference = E805F1632CEA1995005C4E65 /* JOSIMI.app */;
+			name = Josimi;
+			productName = Josimi;
+			productReference = E8C260092C675A5400C91130 /* Josimi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E805F15B2CEA1995005C4E65 /* Project object */ = {
+		E8C260012C675A5400C91130 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					E805F1622CEA1995005C4E65 = {
+					E8C260082C675A5400C91130 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = E805F15E2CEA1995005C4E65 /* Build configuration list for PBXProject "JOSIMI" */;
+			buildConfigurationList = E8C260042C675A5400C91130 /* Build configuration list for PBXProject "Josimi" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -238,50 +499,127 @@
 				en,
 				Base,
 			);
-			mainGroup = E805F15A2CEA1995005C4E65;
-			productRefGroup = E805F1642CEA1995005C4E65 /* Products */;
+			mainGroup = E8C260002C675A5400C91130;
+			productRefGroup = E8C2600A2C675A5400C91130 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E805F1622CEA1995005C4E65 /* JOSIMI */,
+				E8C260082C675A5400C91130 /* Josimi */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E805F1612CEA1995005C4E65 /* Resources */ = {
+		E8C260072C675A5400C91130 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E805F16E2CEA1998005C4E65 /* Preview Assets.xcassets in Resources */,
-				E805F16B2CEA1998005C4E65 /* Assets.xcassets in Resources */,
+				E8221F722C9EAE1400115EE9 /* JosimiLaunchScreen.storyboard in Resources */,
+				E8C260142C675A5700C91130 /* Preview Assets.xcassets in Resources */,
+				E8C260112C675A5700C91130 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E282026354580BB441969B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Josimi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CAC62467EB0944A67F9771B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Josimi/Pods-Josimi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Josimi/Pods-Josimi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Josimi/Pods-Josimi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		E805F15F2CEA1995005C4E65 /* Sources */ = {
+		E8C260052C675A5400C91130 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E805F17F2CEA285A005C4E65 /* UserNameView.swift in Sources */,
-				E805F18B2CEA2BDD005C4E65 /* SocialLoginButtonView.swift in Sources */,
-				E805F1912CEA2DCA005C4E65 /* ErrorMessageView.swift in Sources */,
-				E805F1872CEA2A26005C4E65 /* LogoView.swift in Sources */,
-				E805F18D2CEA2D4E005C4E65 /* CreateAccountView.swift in Sources */,
-				E805F18F2CEA2D97005C4E65 /* UsernameInputSectionView.swift in Sources */,
-				E805F1892CEA2A8E005C4E65 /* GreetingSectionView.swift in Sources */,
-				E805F1832CEA28AB005C4E65 /* UserNameViewModel.swift in Sources */,
-				E805F1852CEA291D005C4E65 /* LogInView.swift in Sources */,
-				E805F1672CEA1996005C4E65 /* JOSIMIApp.swift in Sources */,
+				E85F2A6D2CA003A60031A3F4 /* RecommendedProductNormalItemView.swift in Sources */,
+				E83AE5582C92ECA90072CFCA /* SearchBarView.swift in Sources */,
+				E8221F692C9D753A00115EE9 /* ProductScannerView.swift in Sources */,
+				E8CC55BF2C6CAF2A00A2C46E /* AddGenderView.swift in Sources */,
+				E85F2A582C9EFCAB0031A3F4 /* Ingredient.swift in Sources */,
+				E85F2A672C9FE88D0031A3F4 /* RecommendedProductViewModel.swift in Sources */,
+				E83AE54A2C75ED9A0072CFCA /* HomeView.swift in Sources */,
+				E83AE55E2C92EE9A0072CFCA /* InfinitePageView.swift in Sources */,
+				E853F0C62CA025BB00AF0E06 /* RecommendedProductCategoryNormalItemView.swift in Sources */,
+				E8221F702C9EAB3400115EE9 /* RecommendedProductItemView.swift in Sources */,
+				E8C2601F2C675CD800C91130 /* AddNameView.swift in Sources */,
+				E83AE5622C92EEF70072CFCA /* ADBannerViewModel.swift in Sources */,
+				E8CC55BB2C6A288900A2C46E /* SMSService.swift in Sources */,
+				E83AE56F2C92FBD80072CFCA /* CustomTabView.swift in Sources */,
+				E85F2A622C9F02250031A3F4 /* ProductDetailsPageView.swift in Sources */,
+				E8221F672C9D747E00115EE9 /* BarcodeScannerViewModel.swift in Sources */,
+				E853F0C22CA0218500AF0E06 /* ProductCategory.swift in Sources */,
+				E83AE5602C92EEC70072CFCA /* ADBannerItemView.swift in Sources */,
+				E8C260212C676BED00C91130 /* AddPhoneNumberView.swift in Sources */,
+				E8221F622C9D73BC00115EE9 /* BarcodeScannerView.swift in Sources */,
+				E83AE5792C9308730072CFCA /* CameraButtonView.swift in Sources */,
+				E8C2600D2C675A5400C91130 /* JosimiApp.swift in Sources */,
+				E8C2601D2C675BB100C91130 /* User.swift in Sources */,
+				E85F2A692C9FEA670031A3F4 /* ProductAfter.swift in Sources */,
+				E878FCD02C7099BB007E7523 /* CompletsSignUpView.swift in Sources */,
+				E83AE5722C92FCC40072CFCA /* RoundedCorners.swift in Sources */,
+				E82446562CDF5146002FF742 /* AddDiseaseView.swift in Sources */,
+				E853F0C02CA017D400AF0E06 /* RecommendedProductListView.swift in Sources */,
+				E85F2A5D2C9EFD650031A3F4 /* NetworkManager.swift in Sources */,
+				E83AE5642C92EF250072CFCA /* ADBannerModel.swift in Sources */,
+				E82446582CDF5AEB002FF742 /* LoginView.swift in Sources */,
+				E85F2A5F2C9EFE470031A3F4 /* NetworkService.swift in Sources */,
+				E878FCCB2C707878007E7523 /* RegistrationViewModel.swift in Sources */,
+				E85F2A642C9F36C00031A3F4 /* RiskView.swift in Sources */,
+				E853F0C42CA023D500AF0E06 /* RecommendedProductCategoryListView.swift in Sources */,
+				E83AE5762C92FF250072CFCA /* TabbarView.swift in Sources */,
+				E8CC55BD2C6A292F00A2C46E /* SMSResponse.swift in Sources */,
+				E83AE55B2C92EE770072CFCA /* ADBannerView.swift in Sources */,
+				E8221F6E2C9EA81C00115EE9 /* RecommendedProductScrollView.swift in Sources */,
+				E85F2A5A2C9EFD290031A3F4 /* Product.swift in Sources */,
+				E8CC55B92C6A276000A2C46E /* SMSRequest.swift in Sources */,
+				E83AE57C2C930F720072CFCA /* DraggableButton.swift in Sources */,
+				E878FCC92C7077A8007E7523 /* AddAgeView.swift in Sources */,
+				E83AE5742C92FED40072CFCA /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E805F16F2CEA1998005C4E65 /* Debug */ = {
+		E8C260152C675A5700C91130 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -318,7 +656,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -333,7 +671,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -344,7 +682,7 @@
 			};
 			name = Debug;
 		};
-		E805F1702CEA1998005C4E65 /* Release */ = {
+		E8C260162C675A5700C91130 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -381,7 +719,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -390,7 +728,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -400,28 +738,32 @@
 			};
 			name = Release;
 		};
-		E805F1722CEA1998005C4E65 /* Debug */ = {
+		E8C260182C675A5700C91130 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A488D167DE58C1C32FFE02 /* Pods-Josimi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"JOSIMI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Josimi/Preview Content\"";
 				DEVELOPMENT_TEAM = 52YSN62MCL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Josimi/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "이 앱에서 바코드를 스캔하기 위해 카메라 접근이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = JosimiLaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.GGDol.JOSIMI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GGDol.Josimi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -429,28 +771,32 @@
 			};
 			name = Debug;
 		};
-		E805F1732CEA1998005C4E65 /* Release */ = {
+		E8C260192C675A5700C91130 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD34C68919E63EAEAB035692 /* Pods-Josimi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"JOSIMI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Josimi/Preview Content\"";
 				DEVELOPMENT_TEAM = 52YSN62MCL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Josimi/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "이 앱에서 바코드를 스캔하기 위해 카메라 접근이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = JosimiLaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.GGDol.JOSIMI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GGDol.Josimi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -461,25 +807,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E805F15E2CEA1995005C4E65 /* Build configuration list for PBXProject "JOSIMI" */ = {
+		E8C260042C675A5400C91130 /* Build configuration list for PBXProject "Josimi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E805F16F2CEA1998005C4E65 /* Debug */,
-				E805F1702CEA1998005C4E65 /* Release */,
+				E8C260152C675A5700C91130 /* Debug */,
+				E8C260162C675A5700C91130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E805F1712CEA1998005C4E65 /* Build configuration list for PBXNativeTarget "JOSIMI" */ = {
+		E8C260172C675A5700C91130 /* Build configuration list for PBXNativeTarget "Josimi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E805F1722CEA1998005C4E65 /* Debug */,
-				E805F1732CEA1998005C4E65 /* Release */,
+				E8C260182C675A5700C91130 /* Debug */,
+				E8C260192C675A5700C91130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E805F15B2CEA1995005C4E65 /* Project object */;
+	rootObject = E8C260012C675A5400C91130 /* Project object */;
 }
